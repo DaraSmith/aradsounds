@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://darasmith.github.io./index.html</loc>
-    <lastmod>2018-01-09</lastmod>
+    <loc>https://www.aradsounds.com/index.html</loc>
+    <lastmod>2018-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://www.aradsounds.com/images/1-crop-u250.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.aradsounds.com/images/2-crop-u353.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.aradsounds.com/images/riverbed.gif</image:loc>
+    </image:image>
   </url>
 </urlset>
