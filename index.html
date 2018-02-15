@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=61595750" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=185967520" id="pagesheet"/>
     <!--HTML Widget code-->
     
 <style>
@@ -27,15 +27,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="size_fixed grpelem" id="u411" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+  <div class="clearfix borderbox" id="page"><!-- column -->
+   <div class="size_fixed colelem" id="u411" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
      
    </div>
-   <div class="clip_frame grpelem" id="u429"><!-- image -->
-    <img class="block" id="u429_img" src="images/glyphicons_social_34_vimeo.png?crc=45413814" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/>
+   <div class="colelem" id="u464"><!-- custom html -->
+    <iframe width="100%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/400048938&amp;color=%23ff007a&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
    </div>
-   <div class="clip_frame grpelem" id="u442"><!-- image -->
-    <img class="block" id="u442_img" src="images/glyphicons_social_30_facebook.png?crc=357236420" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/>
+   <div class="clearfix colelem" id="pu442"><!-- group -->
+    <a class="nonblock nontext clip_frame grpelem" id="u442" href="https://www.facebook.com/AradMusicOfficial/" target="_blank"><!-- image --><img class="block" id="u442_img" src="images/glyphicons_social_30_facebook.png?crc=177211012" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u429" href="https://www.instagram.com/aradparticlesandwaves/"><!-- image --><img class="block" id="u429_img" src="images/glyphicons_social_32_instagram.png?crc=169178415" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u482" href="https://twitter.com/AradSmith"><!-- image --><img class="block" id="u482_img" src="images/glyphicons_social_31_twitter.png?crc=4029922244" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u492" href="https://vimeo.com/aradmusic"><!-- image --><img class="block" id="u492_img" src="images/glyphicons_social_34_vimeo.png?crc=3970488393" alt="" data-heightwidthratio="1" data-image-width="24" data-image-height="24"/></a>
    </div>
   </div>
   <!-- JS includes -->
@@ -413,7 +416,7 @@ OKEvents = {
                     volume: 0, 
                     loop: true,
                     controls: false,
-                    hd:true, 
+                    hd:false, 
                     adproof: true,
                  });
     });

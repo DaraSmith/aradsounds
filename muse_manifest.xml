@@ -1,7 +1,24 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.aradsounds.com" resolutions="1x" timestamp="1518704886843">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.aradsounds.com" resolutions="1x" timestamp="1518712318564">
+  <folder name="images">
+    <file name="glyphicons_social_30_facebook.png" crc="177211012" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="glyphicons_social_32_instagram.png" crc="169178415" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="glyphicons_social_31_twitter.png" crc="4029922244" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="glyphicons_social_34_vimeo.png" crc="3970488393" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="videostill.jpg" crc="10246088" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="61595750" ref="index"/>
+    <file name="index.css" crc="185967520" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -10,16 +27,5 @@
     <file name="museconfig.js" crc="380897831" ref="index"/>
     <file name="require.js" crc="4157109226" ref="index"/>
   </folder>
-  <folder name="images">
-    <file name="glyphicons_social_34_vimeo.png" crc="45413814" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="glyphicons_social_30_facebook.png" crc="357236420" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="background_mountains.jpg" crc="226934410" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-  </folder>
-  <file name="index.html" crc="272474004" seo="true" mt="1518704736072" redirect="true"/>
+  <file name="index.html" crc="4064100281" seo="true" mt="1518712302741" redirect="true"/>
 </manifest>
